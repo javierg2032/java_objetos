@@ -30,7 +30,7 @@ public class Colores {
 		tabla = new String[n];
 
 		for (int i = 0; i < tabla.length; i++) {
-			tabla[i]=setColores;
+			tabla[i]=setColores();
 		}
 
 			return tabla;
